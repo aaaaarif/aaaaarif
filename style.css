@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/*Global Css*/
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-4{
+    width:33.33% ;
+    float: left;
+    text-align: center;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+
+.col-md-12{
+   width: 100%; 
+   float: left;
+}
+a,a:hover{
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+
+.header-section{
+    width: 100%;
+    float: left;
+    background-color:#f6f9f9 ;
+}
+
+.logo{
+    padding: 15px 0px;
+}
+
+.nav{
+    padding: 24px 0px;
+    float: right;
+}
+
+.nav ul li{
+    margin-left: 25px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #2d3950;
+}
+
+.nav ul li a{
+    transition: 1s;
+}
+
+.nav ul li a:hover{
+    color: #f6f9f9;
+    padding: 10px;
+    background: #15a4fa
+}
+
+.banar-section{
+    width: 100%;
+    float: left;
+    background: url(img/Banner.png) center top no-repeat;
+    background-size: cover;
+    padding: 70px 0  40px;
+}
+
+.banar-inner{
+width: 100%;
+float: left;
+padding: 80px 0;
+text-align: center;
+}
+
+.banar-inner h1{
+    font-size:80px ;
+   
+    color:white ;
+    text-transform: uppercase;
+}
+hr{
+    width: 40%;
+    height: 2px;
+    background-color: #15a4fa;
+    align-self: center;
+    margin: 2px auto;
+    border: none;
+}
+.banar-inner p{
+    font-size:20px ;
+    
+    color:white ;
+ 
+    margin:50px 0px ;
+}
+
+.banar-inner .btn-info {
+    border: 2px solid #15a4fa;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 40px;
+    color: white;
+    
+}
+
+.banar-inner .btn-info:hover{
+    color: #f6f9f9;
+
+    background: #15a4fa;
+    border: 1px solid #15a4fa;
+    transition: 2s;
+}
+
+.icon{
+    margin-top: 100px;
+
+}
+
+
+.body-section-one, body-inner{
+    width: 100%;
+    float: left;
+    background-color: #F7F8FA;
+    padding: 70px 0  40px;
+    display: inline-block;
+    position: sticky;
+   
+}
+
+
+
+  
+
+.col-md-4{
+    width: 33.33%;
+    float: left;}
+   .icon-one,.icone-two.icon-three{
+     margin: 10px 6px;
+     text-align: center;
+    background-color: white;
+    float: left;
+}
+
+
